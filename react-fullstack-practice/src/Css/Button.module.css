@@ -1,0 +1,46 @@
+/* button.module.css */
+
+.btn1 {
+  background-color: red;
+  color: white;
+}
+.btn1:hover {
+  background-color: darkred;
+  color: yellow;
+}
+
+.btn2 {
+  background-color: green;
+  color: white;
+}
+.btn2:hover {
+  background-color: darkgreen;
+  color: yellow;
+}
+
+.btn3 {
+  background-color: blue;
+  color: white;
+}
+.btn3:hover {
+  background-color: darkblue;
+  color: yellow;
+}
+
+.btn4 {
+  background-color: orange;
+  color: white;
+}
+.btn4:hover {
+  background-color: darkorange;
+  color: black;
+}
+
+.btn5 {
+  background-color: purple;
+  color: white;
+}
+.btn5:hover {
+  background-color: indigo;
+  color: lightgreen;
+}

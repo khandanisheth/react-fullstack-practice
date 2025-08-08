@@ -1,0 +1,74 @@
+.Faqu h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.faqouter {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.Faqu {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.faqitem {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.faqitem h3 {
+    cursor: pointer;
+    margin: 0;
+    text-align: left;
+    background-color: #e0e0e0;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #222;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.symbol {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #007acc;
+}
+
+.faqitem h3:hover {
+    background-color: #d5d5d5;
+}
+
+.faqitem p {
+    margin: 0px;
+    text-align: left;
+    padding: 0px 20px;
+    transition: transform 0.3s ease, height 0.3s ease;
+    transform: scaleY(0);
+    height: 0px;
+    transform-origin: top;
+    font-size: 16px;
+    color: #444;
+}
+
+.ansshow {
+    padding: 15px 20px !important;
+    transform: scaleY(1) !important;
+    height: auto !important;
+    background-color: #fafafa;
+    border-top: 1px solid #ddd;
+}

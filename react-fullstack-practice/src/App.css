@@ -1,0 +1,134 @@
+/* 14 */
+.menu {
+    width: 50%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    top: 10%;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    /* z-index: 1000; */
+}
+
+.activemenu {
+    left: 50%;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 5px 0px;
+}
+
+
+.menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: black;
+    position: absolute;
+    right: 10px;
+    z-index: 1100;
+
+}
+
+
+/* MOdel LOgin */
+.modelOverlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(199, 194, 187, 0.7);
+    display: none;
+    z-index: 999;
+}
+
+.showmodelOverlay {
+    display: block;
+}
+
+.modelBox {
+    text-align: center;
+    width: 368px;
+    height: 368px;
+    position: fixed;
+    top: -500px;
+    left: 50%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.showModel {
+    top: 50%;
+    display: block;
+    /* ✅ This line added */
+}
+
+.em {
+    position: fixed;
+    right: 10px;
+    top: 100px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    transform: rotate(90deg);
+    font-weight: bold;
+    z-index: 1001;
+    /* ✅ Add this line */
+}
+
+.closeBtn {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.closeBtn:hover {
+    color: red;
+}
+
+
+.enquiryForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.enquiryForm input,
+.enquiryForm textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.enquiryForm button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.enquiryForm button:hover {
+    background-color: #0056b3;
+}
