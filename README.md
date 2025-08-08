@@ -28,20 +28,20 @@ ReactLearn/
 
 
 
-📄 Key Features Covered
+## 📄 Key Features Covered
 🔷 React Basics
 JSX, Components
 Props & State
 Conditional Rendering
 Event Handling
-📦 React Advanced
+## 📦 React Advanced
 React Router
 CRUD Operations
 Props Drilling
 useContext, useRef, useReducer
 Custom Hooks
 useMemo & useCallback
-🌐 API & Utilities
+##🌐 API & Utilities
 Weather App using API
 Password Generator
 Toast Notifications (React-Toastify)
@@ -49,7 +49,7 @@ To-Do List
 Login Modal
 Responsive Navbar
 Font Awesome Icons
-📁 Important Files
+##📁 Important Files
 Header.js – Responsive Navbar with React Router & Bootstrap.
 All feature-wise components in src/Component/ like:
 R_17_CRUD.js
@@ -57,12 +57,9 @@ R_22_PasswordGenretor.js
 R_23_WeatherApp.js
 R_26_useReducer.js
 
-📷 Preview
-Add screenshots here using GitHub's ![alt](path) format once repo is live.
-
-🛠️ Installation & Setup
 
 
+##🛠️ Installation & Setup
 
 # Clone the repository
 git clone https://github.com/your-username/react-fullstack-practice.git
@@ -76,4 +73,4 @@ npm start
 🙌 Author
 Mohammad Danish
 MCA Student | Full Stack Developer
-📧 Email: your.email@example.com
+📧 Email: khandanishindia04@gmail.com
